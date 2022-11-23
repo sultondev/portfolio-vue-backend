@@ -52,14 +52,6 @@
       "type": "json",
       "required": true
     },
-    "projectPicture": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
@@ -76,6 +68,29 @@
         }
       },
       "type": "text"
+    },
+    "linkToPicture": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "lang": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "uz",
+        "en",
+        "ru"
+      ],
+      "required": true,
+      "default": "en"
     }
   }
 }
